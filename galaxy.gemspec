@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{galaxy}
-  s.version = "0.0.0"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["arvicco"]
   s.date = %q{2010-03-11}
-  s.description = %q{New project galaxy}
+  s.description = %q{Report parser for Galaxy Plus PBEM}
   s.email = %q{arvitallian@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -19,27 +19,57 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
      ".gitignore",
+     ".idea/.rakeTasks",
+     ".idea/encodings.xml",
+     ".idea/galaxy.iml",
+     ".idea/misc.xml",
+     ".idea/modules.xml",
+     ".idea/vcs.xml",
+     ".idea/workspace.xml",
      "LICENSE",
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "doc/plan.txt",
+     "doc/pseudo.txt",
      "features/galaxy.feature",
      "features/step_definitions/galaxy_steps.rb",
      "features/support/env.rb",
+     "galaxy.gemspec",
+     "galaxy/.loadpath",
+     "galaxy/.project",
+     "galaxy/.settings/org.eclipse.mylyn.tasks.ui.prefs",
+     "galaxy/.settings/org.eclipse.wst.sse.core.prefs",
+     "galaxy/experiments.rb",
      "lib/galaxy.rb",
-     "spec/galaxy_spec.rb",
-     "spec/spec.opts",
-     "spec/spec_helper.rb"
+     "lib/galaxy/models/bombing.rb",
+     "lib/galaxy/models/fleet.rb",
+     "lib/galaxy/models/group.rb",
+     "lib/galaxy/models/models.rb",
+     "lib/galaxy/models/planet.rb",
+     "lib/galaxy/models/product.rb",
+     "lib/galaxy/models/race.rb",
+     "lib/galaxy/models/route.rb",
+     "lib/galaxy/order.rb",
+     "lib/galaxy/report.rb",
+     "lib/galaxy/section.rb",
+     "lib/galaxy/utils.rb",
+     "lib/galaxy/virtual_base.rb",
+     "spec/spec_helper.rb",
+     "test/test_helper.rb",
+     "test/unit/models_test.rb",
+     "test/unit/report_test.rb",
+     "test/unit/utils_test.rb",
+     "test/unit/virtual_base_test.rb"
   ]
   s.homepage = %q{http://github.com/arvicco/galaxy}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{New project galaxy}
+  s.summary = %q{Report parser for Galaxy Plus PBEM}
   s.test_files = [
-    "spec/galaxy_spec.rb",
-     "spec/spec_helper.rb",
-     "test/spec_helper.rb",
+    "spec/spec_helper.rb",
+     "test/test_helper.rb",
      "test/unit/models_test.rb",
      "test/unit/report_test.rb",
      "test/unit/utils_test.rb",
