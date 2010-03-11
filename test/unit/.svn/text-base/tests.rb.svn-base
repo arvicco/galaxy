@@ -1,0 +1,15 @@
+#def Object.inherited(c)
+#puts "class #{c} < #{self}"
+#end
+if __FILE__ == $0
+  # This looks similar to the main method of Java, its generally used for testing.
+  # So whatever you want to do in case THIS file is called ("ruby this_file_name.rb")can be written here.
+  # For example initialing the class that has all the logic.
+  # Or testing code for a file that holds libraries usually called from other files
+end
+
+# Full test suite
+require 'test/unit/utils_test.rb'
+require 'test/unit/virtual_base_test.rb'
+require 'test/unit/models_test.rb'
+require 'test/unit/report_test.rb'

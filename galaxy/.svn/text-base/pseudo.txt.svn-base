@@ -1,0 +1,43 @@
+#readfile
+
+#find begin/end of Races section
+#scan races (simple, no recursion)
+
+#find begin/end of Sciences section
+#for each race in the section
+#scan sciences
+
+#find begin/end of Ship Types section
+#for each race in the section
+#scan ship types
+
+#find begin/end of Battles section
+#for each battle in the section 
+#find begin/end of battle ( .."Battle Protocol")
+#for each race in the battle
+#scan ship list
+
+#find begin/end of Bombings section
+#scan bombings (simple, no recursion)
+
+#find begin/end of Incoming Groups section
+#scan incomings (simple, no recursion)
+
+#find begin/end of Planets section
+#scan your planets
+#scan your ships_in_production?
+#scan routes?
+#for each race in the section
+#scan planets
+#scan Uninhabited planets
+#scan Unidentified planets
+
+#find begin/end of Fleets section
+#scan your fleets (simple, no recursion)
+
+#find begin/end of Groups section
+#scan your groups (with numbers)
+#for each race in the section
+#scan groups
+#scan Unidentified groups
+

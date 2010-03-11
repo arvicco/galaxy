@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "galaxy"
-    gem.summary = %Q{New project galaxy}
-    gem.description = %Q{New project galaxy}
+    gem.summary = %Q{Report parser for Galaxy Plus PBEM}
+    gem.description = %Q{Report parser for Galaxy Plus PBEM}
     gem.email = "arvitallian@gmail.com"
     gem.homepage = "http://github.com/arvicco/galaxy"
     gem.authors = ["arvicco"]
@@ -20,6 +20,11 @@ rescue LoadError
 end
 
 require 'spec/rake/spectask'
+Spec::Rake::SpecTask.new(:test) do |t|
+  t.ruby_opts = ['-r test/unit' ]
+  t.spec_files = FileList['test/unit/*_test.rb' ]
+end
+
 Spec::Rake::SpecTask.new(:spec) do |spec|
   spec.libs << 'lib' << 'spec'
   spec.spec_files = FileList['spec/**/*_spec.rb']

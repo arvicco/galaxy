@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/galaxy/!svn/ver/59/trunk/models
+END
+bombing.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/galaxy/!svn/ver/59/trunk/models/bombing.rb
+END
+route.rb
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/galaxy/!svn/ver/59/trunk/models/route.rb
+END
+fleet.rb
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/galaxy/!svn/ver/59/trunk/models/fleet.rb
+END
+product.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/galaxy/!svn/ver/59/trunk/models/product.rb
+END
+models.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/galaxy/!svn/ver/59/trunk/models/models.rb
+END
+planet.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/galaxy/!svn/ver/59/trunk/models/planet.rb
+END
+race.rb
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/galaxy/!svn/ver/59/trunk/models/race.rb
+END
+group.rb
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/galaxy/!svn/ver/59/trunk/models/group.rb
+END

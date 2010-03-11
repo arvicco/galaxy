@@ -1,17 +1,36 @@
-= galaxy
+= win
 
-Description goes here.
+    by: Arvicco
+    url: http://github.com/arvicco/win
 
-== Note on Patches/Pull Requests
- 
-* Fork the project.
-* Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
-  (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
+== DESCRIPTION
+
+Report parser and scripting tool for Galaxy Plus.
+
+== SUMMARY
+
+Galaxy Plus is a play-by-email (PBEM) game that was very popular some time ago.
+This code allows you to parse Galaxy Plus / Dragon Galaxy report files and builds
+ActiveRecord models for its data artifacts. you can further use these artifacts to
+build automation scripts and whatnot. I have used this tool to efficiently manage
+even such monstrous game format as 'research', with literally thousands of planets
+and tens of thousands ship groups to take care of each turn.
+
+This gem does not include specific automation add-ons (mine were too specific and
+tightly integrated into external scripting frameworks). However, you can easily build
+such scripts on top of data models provided here.
+
+Since I do not play Galaxy Plus any longer, no further development of this code is
+expected from my side, so I release it into public domain for anyone to use and enjoy.
+
+== INSTALLATION
+
+  $ gem install galaxy
+
+== SYNOPSIS
+
+Please see tests for proper examples of usage.
 
 == Copyright
 
-Copyright (c) 2010 arvicco. See LICENSE for details.
+Copyright (c) 2004-2010 arvicco. See LICENSE for details.

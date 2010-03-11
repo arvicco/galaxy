@@ -1,0 +1,5 @@
+1. Groups conversion to AR:Base
+2. Moving record handling procs into init methods of Models
+3. Creating db connector-like interface for gamedata arrays
+    
+ 
